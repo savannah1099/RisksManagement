@@ -8,11 +8,11 @@ using { riskmanagement as rm } from '../db/schema';
 entity Risks @(restrict : [
          {
              grant : [ 'READ','DELETE'],
-             to : [ 'RiskViewer_R' ]
+             to : [ 'RiskViewer' ]
          },
           {
               grant : [ '*' ],
-             to : [ 'RiskManager_R' ]
+             to : [ 'RiskManager' ]
           }
      ]) as projection on rm.Risks;
      annotate Risks with @odata.draft.enabled;
