@@ -5,7 +5,7 @@
   
   "scopes": [
    {
-    "name": "$XSAPPNAME.RiskViewer",
+    "name": "$XSAPPNAME.RiskViewer_R",
     "description": "RiskViewer"
    },
    {
@@ -19,7 +19,7 @@
     "name": "RiskViewer_R",
     "description": "generated",
     "scope-references": [
-    "$XSAPPNAME.RiskViewer"
+    "$XSAPPNAME.RiskViewer_R"
   ],
   "attribute-references": []
   },
