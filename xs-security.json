@@ -35,7 +35,7 @@
 
   "role-collections": [{
     "name": "Viewer_Risks",
-    "role-template-references": [ "$XSAPPNAME.RiskViewer" ]
+    "role-template-references": [ "$XSAPPNAME.RiskViewer_R" ]
   },{
     "name": "Manager_Risks",
     "role-template-references": [ "$XSAPPNAME.RiskManager" ]
