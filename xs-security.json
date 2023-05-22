@@ -16,7 +16,7 @@
   "attributes": [],
   "role-templates": [
   {
-    "name": "RiskViewer",
+    "name": "RiskViewer_R",
     "description": "generated",
     "scope-references": [
     "$XSAPPNAME.RiskViewer"

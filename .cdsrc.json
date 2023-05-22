@@ -11,7 +11,7 @@
            "userAttributes": {
              "email": "risk.viewer@tester.sap.com"
            },
-           "roles": ["RiskViewer"]
+           "roles": ["RiskViewer_R"]
          },
           "risk.manager@tester.sap.com": {
            "password": "initial",

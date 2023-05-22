@@ -7,8 +7,8 @@ using { riskmanagement as rm } from '../db/schema';
 // grant to role
 entity Risks @(restrict : [
          {
-             grant : [ 'READ','DELETE'],
-             to : [ 'RiskViewer' ]
+             grant : [ 'READ','UPDATE'],
+             to : [ 'RiskViewer_R' ]
          },
           {
               grant : [ '*' ],
