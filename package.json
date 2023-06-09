@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@sap/edm-converters": "^1.0.43",
-    "@sap/ux-specification": "^1.108.5",
+    "@sap/ux-specification": "^1.108.7",
     "sqlite3": "^5.0.4"
   },
   "scripts": {
